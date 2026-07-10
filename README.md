@@ -1,8 +1,8 @@
 <div align="center">
-  <h2>MoDE: Mixture of Deformation Experts for Dynamic Gaussian Splatting</h2>
+  <h2>On the Design of Mixture-of-Experts for Dynamic Gaussian Splatting</h2>
+  <h3 style="font-size:1.15em; margin-top: 8px;"><strong>Official Repository for MoDE</strong></h3>
   <h3 style="font-size:1.5em; margin-top: 15px;"><strong style="letter-spacing: -0.5px">IEEE TPAMI 2026</strong></h3>
-  <a href="TPAMI-2026-03-0704.R1_Kong.pdf"><img src="https://img.shields.io/badge/Paper-TPAMI_2026-b31b1b" alt="Paper"></a>
-  <a href="https://github.com/cvsp-lab/MoE-GS-studio"><img src="https://img.shields.io/badge/MoE--GS_Studio-blue" alt="MoE-GS Studio"></a>
+  <!-- <a href="TPAMI-2026-03-0704.R1_Kong.pdf"><img src="https://img.shields.io/badge/Paper-TPAMI_2026-b31b1b" alt="Paper"></a> -->
 
   <p>
     <a href="https://www.pnu-cvsp.com/members/inhwan"><strong>In-Hwan Jin</strong></a><sup style="margin-right: -3px;">1*</sup>
@@ -20,11 +20,9 @@
     <sup>*</sup> Equal contribution &nbsp;&nbsp;&nbsp; <sup>†</sup> Corresponding author
   </p>
 
-  <br>
-  <img src="main.gif" width=70%>
-  <br>
-  <b>Summary</b>: <b>Mixture of Deformation Experts</b> framework for dynamic Gaussian Splatting with
-            multiple deformation experts jointly optimized on a shared canonical Gaussian representation.
+  <b>Summary</b>: This repository provides the official implementation of <b>MoDE</b>,
+            a <b>Mixture of Deformation Experts</b> framework for dynamic Gaussian Splatting.
+            MoDE jointly optimizes multiple deformation experts on a shared canonical Gaussian representation.
   <br><br>
   <b>MoE-GS Series</b>: MoDE is part of
   <a href="https://github.com/cvsp-lab/MoE-GS-studio"><b>MoE-GS Studio</b></a>,
@@ -34,11 +32,9 @@
 
 ## 🚧 TODO List
 
-- [x] Data Preprocessing Scripts
-- [x] Training Scripts
-- [x] Rendering Scripts
-- [x] Deformation Expert Configurations
-- [x] Related Project Links
+- [x] Grid4D based Code Release
+- [x] E-D3DGS based Code Release
+- [ ] 4DGaussians based Code Release (Coming Soon)
 
 <br><br>
 
